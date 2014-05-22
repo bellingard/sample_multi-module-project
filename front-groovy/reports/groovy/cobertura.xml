@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+
+<coverage line-rate="0.25" branch-rate="1.0" lines-covered="1" lines-valid="4" branches-covered="0" branches-valid="0" complexity="0.0" version="2.0.3" timestamp="1394795107627">
+	<sources>
+		<source>C:/git/sonar-examples/projects/languages/groovy/groovy-maven/target/generated-sources/groovy-stubs/main</source>
+		<source>--source</source>
+		<source>C:/git/sonar-examples/projects/languages/groovy/groovy-maven/src/main/groovy</source>
+	</sources>
+	<packages>
+		<package name="example" line-rate="1.0" branch-rate="1.0" complexity="0.0">
+			<classes>
+				<class name="example.Greeting" filename="example/Greeting.groovy" line-rate="1.0" branch-rate="1.0" complexity="0.0">
+					<methods>
+						<method name="say" signature="()Ljava/lang/Object;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="5" hits="3" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="5" hits="3" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+		<package name="innerclass" line-rate="0.0" branch-rate="1.0" complexity="0.0">
+			<classes>
+				<class name="innerclass.InnerClassExample" filename="innerclass/InnerClassExample.groovy" line-rate="0.0" branch-rate="1.0" complexity="0.0">
+					<methods>
+						<method name="show" signature="()Ljava/lang/Object;" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="6" hits="0" branch="false"/>
+								<line number="7" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="6" hits="0" branch="false"/>
+						<line number="7" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="innerclass.InnerClassExample$ExampleInnerClass" filename="innerclass/InnerClassExample.groovy" line-rate="0.0" branch-rate="1.0" complexity="0.0">
+					<methods>
+						<method name="show" signature="()Ljava/lang/Object;" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="11" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="11" hits="0" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>
