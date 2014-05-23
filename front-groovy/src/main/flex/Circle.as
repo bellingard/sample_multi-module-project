@@ -4,7 +4,11 @@ package {
     public var diameter:int = 0;
 
     function Circle (d:int) {
-      this.diameter = d;
+        if (d == 0) {
+            this.diameter = -1;	
+        } else {
+            this.diameter = d;
+        }
     }
   }
 }

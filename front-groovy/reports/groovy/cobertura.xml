@@ -44,12 +44,12 @@
 					<methods>
 						<method name="show" signature="()Ljava/lang/Object;" line-rate="0.0" branch-rate="1.0">
 							<lines>
-								<line number="11" hits="0" branch="false"/>
+								<line number="11" hits="1" branch="false"/>
 							</lines>
 						</method>
 					</methods>
 					<lines>
-						<line number="11" hits="0" branch="false"/>
+						<line number="11" hits="1" branch="false"/>
 					</lines>
 				</class>
 			</classes>
