@@ -12,6 +12,7 @@ runAnalysis() {
 	curl -sSLo $HOME/.sonar/sonar-scanner.zip http://repo1.maven.org/maven2/org/sonarsource/scanner/cli/sonar-scanner-cli/2.6/sonar-scanner-cli-2.6.zip
 	unzip $HOME/.sonar/sonar-scanner.zip -d $HOME/.sonar/
 	rm $HOME/.sonar/sonar-scanner.zip
+	export PATH=$SONAR_SCANNER_HOME/bin:$PATH
 
 	# And run the analysis - assumes that there's a sonar-project.properties file at the root of the repo
 	sonar-scanner -Dsonar.host.url=$SONAR_HOST_URL -Dsonar.login=$SONAR_TOKEN
