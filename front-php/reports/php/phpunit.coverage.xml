@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <coverage generated="1394164581">
   <project timestamp="1394164581">
-    <file name="/Users/fbellingard/Tests/Multi-language/multi-language-multi-module-test/front-php/src/main/php/Math.php">
+    <file name="src/main/php/Math.php">
       <class name="PhpUnderControl_Example_Math" namespace="global" fullPackage="Example" package="Example">
         <metrics methods="4" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="84" coveredstatements="2" elements="88" coveredelements="4"/>
       </class>
