@@ -29,7 +29,7 @@ then
 		-Dsonar.analysis.mode=preview \
 		-Dsonar.github.login=$GITHUB_LOGIN \
 		-Dsonar.github.oauth=$GITHUB_TOKEN \
-		-Dsonar.github.repository=bellingard/multi-language-test \
+		-Dsonar.github.repository=$TRAVIS_REPO_SLUG \
 		-Dsonar.github.pullRequest=$TRAVIS_PULL_REQUEST
 else
 	# This will run a full analysis of the project and push results to the SonarQube server
