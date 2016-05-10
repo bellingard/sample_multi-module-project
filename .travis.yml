@@ -6,7 +6,7 @@ jdk:
   - oraclejdk8
 
 script:
-  - ./travis.sh
+  - ./runSonarQubeAnalysis.sh
 
 cache:
   directories:
