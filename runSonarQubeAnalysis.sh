@@ -19,6 +19,8 @@ installSonarQubeScanner() {
 # Install the SonarQube Scanner
 # TODO: Would be nice to have it pre-installed by Travis somehow
 installSonarQubeScanner
+# And set the related JVM options - this is where the size of the JVM can be increased if required (e.g. "-Xmx1G -Xms128m").
+export SONAR_SCANNER_OPTS="-server"
 
 # And run the analysis
 # It assumes that there's a sonar-project.properties file at the root of the repo
