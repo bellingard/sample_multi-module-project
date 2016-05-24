@@ -3,13 +3,6 @@ Multi-language multi-module sample project
 
 [![Build status](https://travis-ci.org/bellingard/multi-language-multi-module-project.svg?branch=master)](https://travis-ci.org/bellingard/multi-language-multi-module-project) [![Quality Gate](https://nemo.sonarqube.org/api/badges/gate?key=multi-language-multi-module-project)](https://nemo.sonarqube.org/dashboard/index/multi-language-multi-module-project)
 
-#### Featured languages
-- **Java** - with coverage
-- **JavaScript** - with coverage
-- **Flex** - with coverage
-- **PHP** - with coverage
-- **Groovy** - with coverage
-
 #### This project is analysed on [Nemo](https://nemo.sonarqube.org)!
 
 Analysis is performed:
@@ -25,3 +18,10 @@ Take a look at the [runSonarQubeAnalysis.sh](https://github.com/bellingard/multi
 Make sure you have installed SonarQube with the Java, JavaScript, PHP, Flex and Groovy plugins. Then run:
 
 > sonar-runner
+
+#### Featured languages
+- **Java** - with coverage
+- **JavaScript** - with coverage
+- **Flex** - with coverage
+- **PHP** - with coverage
+- **Groovy** - with coverage
